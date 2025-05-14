@@ -11,4 +11,38 @@
 }
 footer{
     margin: 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h3{
+    background-color: purple;
+    color: white;
+    padding: 10px;
+    height: 25px;
+    width: 130px;
+    text-align: center;
+}
+h1{
+    width: 50%;
+    font-size: 50px;
+    
+    
 }
