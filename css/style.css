@@ -42,9 +42,9 @@ footer{
 }
 .footer{
     width: 50%;
-    height: 210px;
+    height: 230px;
     display: inline-block;
-    background-color: aqua;
+    
     
    
 }
@@ -132,7 +132,7 @@ h3{
 }
 
 
-img{
+.img1 .img2{
     height: 360px;
     
 }
@@ -182,4 +182,6 @@ body input{
     height: 30px;
     margin: 10px;
 }
-
+body form{
+    text-align: center;
+}
