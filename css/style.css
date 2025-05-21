@@ -31,6 +31,51 @@ header{
 
 
 
+#box{
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start;
+}
+
+footer{
+    margin: auto;
+}
+.footer{
+    width: 50%;
+    height: 210px;
+    display: inline-block;
+    background-color: aqua;
+    
+   
+}
+ th, td {
+
+    padding-left: 15px;
+  }
+  i{
+    padding-top: 10px;
+    font-size: 20px;
+  }
+  #logo2{
+    width: 150px;
+  }
+.footer:nth-child(2){
+    border-left: 3px solid purple;
+}
+h5{
+    font-size: 20px;
+    margin: 5px;
+}
+footer input{
+    height: 25px;
+    
+}
+
+  
+
+
+
+
 
 
 
