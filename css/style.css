@@ -23,6 +23,7 @@ header i{
 }
 header{
     margin: 0;
+    background-color: white;
 
 }
 header {
@@ -32,9 +33,9 @@ header {
     width: 100%;
     /* background-color: #333; */
     /* color: white; */
-    padding: 15px;
+    padding: 0px;
     text-align: center;
-    z-index: 1000; kad būtų virš kitų elementų
+    z-index: 1000; 
   }
 
 
@@ -49,6 +50,8 @@ header {
 
 footer{
     margin: auto;
+    padding-left: 75px;
+    padding-right: 75px;
 }
 .footer{
     width: 50%;
@@ -116,7 +119,9 @@ footer input{
 
 
 
-
+body{
+    padding-top: 100px;
+}
 
 
 
