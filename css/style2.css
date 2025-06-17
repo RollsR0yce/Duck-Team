@@ -91,12 +91,10 @@ footer input{
   
 
 
+    
 
 
-.container1{
-    display: flex;
-  }
-.container1 i{
+.container2 i{
     padding: 0;
     border-radius: 25px;
     border:  purple solid 5px;
@@ -107,23 +105,25 @@ footer input{
 
 .container2{
     display: flex;
+    margin-top: 25px;
 }
 .container3{
     display: flex;
     justify-content: center;
 }
 
-.div1{
-    width: 50%;
-}
+
 
 #left{
     position: sticky;
-    left: 46%;
+    left: 47%;
+    margin-bottom: 20px;
+    
 }
 #right{
     position: sticky;
     left: 50%;
+    
 }
 .div6{
     justify-content: center;
@@ -139,18 +139,15 @@ footer input{
     text-align: center;
 
 }
-/* .img0{
-    height: 100%;
-} */
 
-.img0, .img1, .img2 {
-            width: 100%;
-            height: auto;
-            display: block;
-            max-width: 500px;
-            margin: 0 auto;
-        }
+.img1{
+    padding-left: 35px;
+    height: 400px;
+}
 
+.div4{
+    padding-top: 50px;
+}
 
 body{
     padding-top: 50px;
@@ -261,7 +258,6 @@ body form{
 
 
 
-
 @media (max-width: 768px) {
   
   footer{
@@ -292,26 +288,11 @@ body form{
 
 
 
-@media (max-width: 2000px) {
-  
-.img0{
-    width: 1000px;
-}
 
-}
-@media (max-width: 1500px) {
-  
-.img0{
-    width: 800px;
-}
 
-}
 @media (max-width: 1280px) {
   
-.img0{
-    width: 7500px;
-    
-}
+
 #left{
     position: sticky;
     left: 40%;
@@ -320,9 +301,24 @@ body form{
 
 @media (max-width: 950px) {
   
- 
+.container2{
+    font-size: small;
+} 
 #left{
     position: sticky;
     left: 30%;
+}
+.img1{
+    width: 300px;
+}
+
+}
+
+
+@media (max-width: 600px) {
+  
+
+.img1{
+    width: 200px;
 }
 }
